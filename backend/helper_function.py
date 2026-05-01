@@ -16,7 +16,7 @@ def get_llm_response(prompt, chat_history):
         messages=[
             {
                 "role": "system",
-                "content": "You're an helpful AI assistant only give brief and small answers include emoji"
+                "content": "You're an helpful AI assistant only give brief and small answers be direct"
             }
         ] + chat_history[-6:] + [
             {

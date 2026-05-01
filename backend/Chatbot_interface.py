@@ -1,4 +1,4 @@
-from helper_function import get_llm_response, print_llm_response
+from helper_function import get_llm_response
 
 chat_history = []
 
