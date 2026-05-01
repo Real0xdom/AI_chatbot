@@ -6,6 +6,7 @@ type Message = {
   role: "user" | "assistant";
   content: string;
 };
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export default function Home() {
   const [input, setInput] = useState<string>("");
@@ -22,7 +23,7 @@ export default function Home() {
     setInput("");
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/chat", {
+      const res = await fetch("${API_URL}/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
