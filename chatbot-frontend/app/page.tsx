@@ -23,7 +23,7 @@ export default function Home() {
     setInput("");
 
     try {
-      const res = await fetch("${API_URL}/chat", {
+      const res = await fetch(`${API_URL}/chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
