@@ -9,7 +9,7 @@ chat_history = []
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000",
-    "https://ai-chatbot-plum-five-76.vercel.app/"],
+    "https://ai-chatbot-plum-five-76.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
