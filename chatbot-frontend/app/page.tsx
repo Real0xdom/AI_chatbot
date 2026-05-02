@@ -116,7 +116,7 @@ export default function Home() {
             <h1>How can I help today?</h1>
           </div>
           <p className="chat-header__caption">
-            Light frontend redesign inspired by modern chat interfaces.
+            Frontier AI
           </p>
         </header>
 
